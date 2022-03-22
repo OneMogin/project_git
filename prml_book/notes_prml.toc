@@ -1,0 +1,4 @@
+
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Chapter 1. Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Example: Polynomial Curve Fitting}{1}{subsection.1.1}%

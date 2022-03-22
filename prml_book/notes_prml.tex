@@ -1,0 +1,121 @@
+\documentclass[11pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amstext,amsmath,amssymb,amsfonts,bbm}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{amsthm}
+\usepackage{tocvsec2}
+\usepackage{enumerate}
+\usepackage[many]{tcolorbox}
+\usepackage{changepage}
+%\usepackage{subcaption}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage{bbm}
+\usepackage{braket}
+\usepackage{tcolorbox}
+\usepackage{natbib}
+\usepackage{graphicx}
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\definecolor{darkred}{rgb}{0.55, 0.0, 0.0}
+\definecolor{myorange}{RGB}{251, 133, 0}
+\definecolor{brickred}{rgb}{0.8, 0.25, 0.33}
+%\usepackage{refcheck}
+\usepackage{titlesec}
+\usepackage{dsfont}
+\usepackage{slashed}
+\usepackage{fullpage}
+\usepackage{cite}
+%\usepackage[normalem]{ulem}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=brickred,linktocpage=true]{hyperref}
+\usepackage{color}
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\small\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\makeatletter
+\renewcommand{\@dotsep}{1000}
+
+\linespread{1.2}
+
+%
+\def\Tr{\mathrm{Tr}}
+\def\tr{\mathrm{tr}}
+\def\De{\mathrm{D}}
+\def\de{\mathrm{d}}
+\def\i{\mathrm{i}}
+\def\k{\mathrm{k}}
+\def\mb{\bar{\mu}}
+\def\lp{\ell_\text{Pl}}
+\def\mp{m_\text{Pl}}
+%
+\def\A{\mathcal{A}}
+\def\B{\mathcal{B}}
+\def\C{\mathcal{C}}
+\def\D{\mathcal{D}}
+\def\E{\mathcal{E}}
+\def\F{\mathcal{F}}
+\def\G{\mathcal{G}}
+\def\H{\mathcal{H}}
+\def\I{\mathcal{I}}
+\def\J{\mathcal{J}}
+\def\K{\mathcal{K}}
+\def\L{\mathcal{L}}
+\def\M{\mathcal{M}}
+\def\N{\mathcal{N}}
+\def\O{\mathcal{O}}
+\def\Q{\mathcal{Q}}
+\def\R{\mathbb{R}}
+\def\S{\mathcal{S}}
+\def\T{\mathcal{T}}
+\def\U{\mathcal{U}}
+\def\V{\mathcal{V}}
+\def\X{\mathcal{X}}
+\def\Y{\mathcal{Y}}
+\def\Z{\mathcal{Z}}
+\def\t{\boldsymbol{t}}
+
+\renewenvironment{thebibliography}[1]
+         {\section*{References}\frenchspacing\small
+          \begin{list}{[\arabic{enumi}]}
+         {\usecounter{enumi}\parsep=2pt\topsep 0pt
+         \settowidth{\labelwidth}{[#1]}
+         \leftmargin=\labelwidth\advance\leftmargin\labelsep
+         \rightmargin=0pt\itemsep=1pt\sloppy}}{\end{list}}
+
+
+%
+\renewcommand{\theequation}{\thesection.\arabic{equation}}\numberwithin{equation}{section}
+
+\newtheorem{remark}{Remark}
+
+\newtheorem{definition}{Definition}
+
+\newtheorem{theorem}{Theorem}
+
+\newtheorem{proposition}{Proposition}
+
+\newtheorem*{proof*}{Proof}
+
+
+\begin{document}
+
+\title{\Large{\textbf{\sffamily Pattern Recognition and Machine Learning }}}
+\author{\sffamily Lautaro Amadei}
+\date{\small{\textit{
+nowhere}}}
+
+\maketitle
+
+\tableofcontents
+\section{Chapter 1. Introduction}
+
+\subsection{Example: Polynomial Curve Fitting}
+
+
+
+\end{document}
+
+
